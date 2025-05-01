@@ -1,0 +1,16 @@
+{
+	"scripts": {
+		"build:startServer": "tsc --build && node ./build/src/Server/Server.js ",
+		"startKafka": "node ./build/src/Init.js",
+		"build": "tsc --build",
+		"clean": "tsc --build --clean"
+	},
+	"dependencies": {
+		"express": "^5.1.0",
+		"kafkajs": "^2.2.4"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.1",
+		"typescript": "^5.8.3"
+	}
+}

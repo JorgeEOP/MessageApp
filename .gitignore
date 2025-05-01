@@ -1,0 +1,4 @@
+build/*
+.git/
+tsconfigRef
+node_modules/
