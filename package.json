@@ -1,7 +1,7 @@
 {
 	"scripts": {
 		"build:startServer": "tsc --build && node ./build/src/Server/Server.js ",
-		"startKafka": "node ./build/src/Init.js",
+		"build:startKafka": "tsc --build && node ./build/src/Main.js",
 		"build": "tsc --build",
 		"clean": "tsc --build --clean"
 	},
