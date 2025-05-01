@@ -4,7 +4,7 @@
 This repo is a backend App that uses **KafkaJS** to create Producers and Consumers that
 communicate via Kafka.
 
-## Prerequisisted:
+## Prerequisists:
 Installed **Kafka** in you system.
 If you installed it with Homebrew in MacOs, you can run it with the following command:
 `kafka-server-start /opt/homebrew/etc/kafka/server.properties`
