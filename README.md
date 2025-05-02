@@ -15,3 +15,5 @@ To create *Topics* in Kafka, you can use the following command:
 You can use the terminal to send messages to Kafka:
 `kafka-console-producer --bootstrap-server localhost:9092 --topic name_of_your_topic`
 
+## To launch the NodeJS app and start listening to Kafka you can type
+`npm run build:startKafka`
